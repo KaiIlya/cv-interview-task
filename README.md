@@ -31,6 +31,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Наш baseline находится в ноутбуке, последовательно запускаем ячейки.
+
 После запуска baseline создает артефакты:
 
 ```text
