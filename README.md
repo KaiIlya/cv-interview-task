@@ -29,23 +29,6 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
-jupyter notebook notebooks/01_dirty_baseline.ipynb
-```
-
-Для Windows PowerShell:
-
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-
-pip install -r requirements.txt
-jupyter notebook notebooks/01_dirty_baseline.ipynb
-```
-
-Также можно быстро запустить базовое решение без notebook:
-
-```bash
-python scripts/run_dirty_baseline.py
 ```
 
 После запуска baseline создает артефакты:
